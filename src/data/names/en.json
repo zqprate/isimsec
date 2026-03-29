@@ -5162,57 +5162,6 @@
     }
   },
   {
-    "slug": "sebastian",
-    "name": "Sebastian",
-    "gender": "male",
-    "syllableCount": 4,
-    "letterCount": 9,
-    "isPopular": false,
-    "popularityRank": 188,
-    "origins": [
-      "greek",
-      "latin"
-    ],
-    "meaningCategories": [
-      "noble",
-      "strong"
-    ],
-    "translation": {
-      "meaning": "Venerable, revered",
-      "description": null,
-      "pronunciation": null,
-      "famousPeople": [],
-      "culturalNotes": null,
-      "metaTitle": "Sebastian: Meaning, Origin & Popularity",
-      "metaDescription": "What does Sebastian mean? Venerable, revered. A boy name. Origin, popularity, and details."
-    }
-  },
-  {
-    "slug": "penelope",
-    "name": "Penelope",
-    "gender": "female",
-    "syllableCount": 4,
-    "letterCount": 8,
-    "isPopular": false,
-    "popularityRank": 189,
-    "origins": [
-      "greek"
-    ],
-    "meaningCategories": [
-      "faithful",
-      "wise"
-    ],
-    "translation": {
-      "meaning": "Weaver",
-      "description": null,
-      "pronunciation": null,
-      "famousPeople": [],
-      "culturalNotes": null,
-      "metaTitle": "Penelope: Meaning, Origin & Popularity",
-      "metaDescription": "What does Penelope mean? Weaver. A girl name. Origin, popularity, and details."
-    }
-  },
-  {
     "slug": "maxwell",
     "name": "Maxwell",
     "gender": "male",
