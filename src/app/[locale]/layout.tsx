@@ -58,6 +58,10 @@ export const metadata: Metadata = {
     description: "643+ isim, 4 dil, interaktif araçlar. Soyadı uyumu, isim karşılaştırma ve daha fazlası.",
     images: ["https://www.isimsec.com/og-image.svg"],
   },
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.svg",
+  },
   robots: {
     index: true,
     follow: true,
