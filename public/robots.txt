@@ -1,12 +1,46 @@
 # İsimSeç — robots.txt
 # www.isimsec.com
-# Tüm botlara tam erişim — hızlı indexleme için kısıtsız
 
 User-agent: *
 Allow: /
 Disallow: /api/
 
-# Sitemap referansları — dil bazlı
+# AI Arama Botları — İZİN VER
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Eğitim Botları — ENGELLE
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# Sitemaps
 Sitemap: https://www.isimsec.com/sitemap.xml
 Sitemap: https://www.isimsec.com/sitemap-tr.xml
 Sitemap: https://www.isimsec.com/sitemap-en.xml

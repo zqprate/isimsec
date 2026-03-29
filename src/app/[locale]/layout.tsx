@@ -42,6 +42,20 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "İsimSeç",
     locale: "tr_TR",
+    images: [
+      {
+        url: "https://www.isimsec.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "İsimSeç — Bebek İsmi Keşif Platformu",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "İsimSeç — Bebeğinize Mükemmel İsmi Seçin",
+    description: "643+ isim, 4 dil, interaktif araçlar. Soyadı uyumu, isim karşılaştırma ve daha fazlası.",
+    images: ["https://www.isimsec.com/og-image.png"],
   },
   robots: {
     index: true,

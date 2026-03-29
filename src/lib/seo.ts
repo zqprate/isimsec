@@ -38,10 +38,23 @@ export function namePageJsonLd({
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    headline: `${name} — Anlam, Köken ve Popülerlik`,
     name,
     description: meaning,
     url,
     inLanguage: locale,
+    datePublished: "2026-03-28",
+    dateModified: new Date().toISOString().split("T")[0],
+    author: {
+      "@type": "Organization",
+      name: "İsimSeç",
+      url: "https://www.isimsec.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "İsimSeç",
+      url: "https://www.isimsec.com",
+    },
     mainEntity: {
       "@type": "Thing",
       name,
