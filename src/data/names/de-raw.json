@@ -1,102 +1,3513 @@
 [
-  {"name":"Sophie","gender":"female","origins":["greek"],"meaningCategories":["wise"],"meaning":"Die Weise, Weisheit"},
-  {"name":"Noah","gender":"male","origins":["hebrew"],"meaningCategories":["peaceful"],"meaning":"Der Ruhende, Trost"},
-  {"name":"Marie","gender":"female","origins":["hebrew"],"meaningCategories":["love"],"meaning":"Die Geliebte, die Widerspenstige"},
-  {"name":"Ben","gender":"male","origins":["hebrew"],"meaningCategories":["strong"],"meaning":"Sohn der rechten Hand, der Glueckliche"},
-  {"name":"Anna","gender":"female","origins":["hebrew"],"meaningCategories":["graceful"],"meaning":"Die Begnadete, die Anmutige"},
-  {"name":"Lukas","gender":"male","origins":["greek","latin"],"meaningCategories":["light"],"meaning":"Der Leuchtende, ins Licht Geborene"},
-  {"name":"Lea","gender":"female","origins":["hebrew"],"meaningCategories":["strong"],"meaning":"Die Wildkuh, die Ermuedete"},
-  {"name":"Matteo","gender":"male","origins":["hebrew","italian"],"meaningCategories":["divine"],"meaning":"Geschenk Gottes"},
-  {"name":"Emily","gender":"female","origins":["latin","germanic"],"meaningCategories":["brave"],"meaning":"Die Eifrige, die Fleissige"},
-  {"name":"Maximilian","gender":"male","origins":["latin"],"meaningCategories":["noble"],"meaning":"Der Groesste, der Erhabenste"},
-  {"name":"Johanna","gender":"female","origins":["hebrew"],"meaningCategories":["divine","graceful"],"meaning":"Gott ist gnaedig"},
-  {"name":"Alexander","gender":"male","origins":["greek"],"meaningCategories":["strong","brave"],"meaning":"Der Beschuetzer der Maenner"},
-  {"name":"Charlotte","gender":"female","origins":["french","germanic"],"meaningCategories":["strong"],"meaning":"Die Freie, die Tuechtige"},
-  {"name":"Jakob","gender":"male","origins":["hebrew"],"meaningCategories":["faithful"],"meaning":"Der Fersenhalter, Gott schuetzt"},
-  {"name":"Emma","gender":"female","origins":["germanic"],"meaningCategories":["strong"],"meaning":"Die Grosse, die Allumfassende"},
-  {"name":"David","gender":"male","origins":["hebrew"],"meaningCategories":["love"],"meaning":"Der Geliebte, der Liebling"},
-  {"name":"Nele","gender":"female","origins":["greek","germanic"],"meaningCategories":["light"],"meaning":"Die Strahlende, Kurzform von Cornelia"},
-  {"name":"Jonas","gender":"male","origins":["hebrew"],"meaningCategories":["peaceful"],"meaning":"Die Taube, der Friedensbringer"},
-  {"name":"Clara","gender":"female","origins":["latin"],"meaningCategories":["light","pure"],"meaning":"Die Helle, die Strahlende"},
-  {"name":"Tim","gender":"male","origins":["greek"],"meaningCategories":["divine"],"meaning":"Der Gott Ehrende"},
-  {"name":"Sophia","gender":"female","origins":["greek"],"meaningCategories":["wise"],"meaning":"Die Weisheit, die Kluge"},
-  {"name":"Moritz","gender":"male","origins":["latin"],"meaningCategories":["strong"],"meaning":"Der Dunkle, der Mohr"},
-  {"name":"Leni","gender":"female","origins":["greek"],"meaningCategories":["light"],"meaning":"Die Leuchtende, Kurzform von Helena"},
-  {"name":"Niklas","gender":"male","origins":["greek"],"meaningCategories":["victorious"],"meaning":"Sieg des Volkes"},
-  {"name":"Amelie","gender":"female","origins":["germanic"],"meaningCategories":["brave"],"meaning":"Die Tapfere, die Fleissige"},
-  {"name":"Julian","gender":"male","origins":["latin"],"meaningCategories":["joyful"],"meaning":"Der dem Jupiter Geweihte, der Jugendliche"},
-  {"name":"Sarah","gender":"female","origins":["hebrew"],"meaningCategories":["noble"],"meaning":"Die Fuerstin, die Prinzessin"},
-  {"name":"Theo","gender":"male","origins":["greek"],"meaningCategories":["divine"],"meaning":"Geschenk Gottes, Kurzform von Theodor"},
-  {"name":"Laura","gender":"female","origins":["latin"],"meaningCategories":["victorious"],"meaning":"Die Lorbeerbekraenzte, die Siegerin"},
-  {"name":"Tom","gender":"male","origins":["hebrew"],"meaningCategories":["strong"],"meaning":"Der Zwilling"},
-  {"name":"Maja","gender":"female","origins":["latin","greek"],"meaningCategories":["nature"],"meaning":"Die Goettin des Wachstums, die Grosse"},
-  {"name":"Simon","gender":"male","origins":["hebrew"],"meaningCategories":["faithful"],"meaning":"Der Erhoerte, Gott hat gehoert"},
-  {"name":"Helena","gender":"female","origins":["greek"],"meaningCategories":["light","beautiful"],"meaning":"Die Strahlende, die Leuchtende"},
-  {"name":"Oscar","gender":"male","origins":["germanic","celtic"],"meaningCategories":["divine","brave"],"meaning":"Der Goetterspeer, Gotteskaempfer"},
-  {"name":"Frieda","gender":"female","origins":["germanic"],"meaningCategories":["peaceful"],"meaning":"Die Friedliche, die Schuetzende"},
-  {"name":"Karl","gender":"male","origins":["germanic"],"meaningCategories":["strong"],"meaning":"Der Freie Mann, der Tuechtige"},
-  {"name":"Ida","gender":"female","origins":["germanic"],"meaningCategories":["brave"],"meaning":"Die Seherin, die Arbeitende"},
-  {"name":"Franz","gender":"male","origins":["latin","germanic"],"meaningCategories":["strong"],"meaning":"Der Freie, der Franke"},
-  {"name":"Greta","gender":"female","origins":["greek"],"meaningCategories":["pure"],"meaning":"Die Perle, Kurzform von Margarete"},
-  {"name":"Ludwig","gender":"male","origins":["germanic"],"meaningCategories":["brave"],"meaning":"Der beruehmte Kaempfer"},
-  {"name":"Martha","gender":"female","origins":["hebrew"],"meaningCategories":["strong"],"meaning":"Die Herrin, die Gebieterin"},
-  {"name":"Friedrich","gender":"male","origins":["germanic"],"meaningCategories":["peaceful","noble"],"meaning":"Der friedliche Herrscher"},
-  {"name":"Elisabeth","gender":"female","origins":["hebrew"],"meaningCategories":["divine","faithful"],"meaning":"Mein Gott ist Fuelle, die Gott Geweihte"},
-  {"name":"Anton","gender":"male","origins":["latin"],"meaningCategories":["strong"],"meaning":"Der Unschaetzbare, der Praechtige"},
-  {"name":"Mathilda","gender":"female","origins":["germanic"],"meaningCategories":["strong","brave"],"meaning":"Die maechtige Kaempferin"},
-  {"name":"Henrik","gender":"male","origins":["germanic","scandinavian"],"meaningCategories":["noble"],"meaning":"Der Herrscher des Heims"},
-  {"name":"Luise","gender":"female","origins":["germanic","french"],"meaningCategories":["brave"],"meaning":"Die beruehmte Kaempferin"},
-  {"name":"Rafael","gender":"male","origins":["hebrew"],"meaningCategories":["divine"],"meaning":"Gott hat geheilt"},
-  {"name":"Carla","gender":"female","origins":["germanic"],"meaningCategories":["strong"],"meaning":"Die Freie, die Tuechtige"},
-  {"name":"Leonard","gender":"male","origins":["germanic"],"meaningCategories":["brave","strong"],"meaning":"Der starke Loewe"},
-  {"name":"Vera","gender":"female","origins":["latin","slavic"],"meaningCategories":["faithful"],"meaning":"Die Wahre, die Wahrhaftige"},
-  {"name":"Louis","gender":"male","origins":["germanic","french"],"meaningCategories":["brave"],"meaning":"Der beruehmte Krieger"},
-  {"name":"Paula","gender":"female","origins":["latin"],"meaningCategories":["graceful"],"meaning":"Die Kleine, die Bescheidene"},
-  {"name":"Jannik","gender":"male","origins":["hebrew","scandinavian"],"meaningCategories":["divine"],"meaning":"Gott ist gnaedig"},
-  {"name":"Eva","gender":"female","origins":["hebrew"],"meaningCategories":["nature"],"meaning":"Die Lebensspenderin, das Leben"},
-  {"name":"Max","gender":"male","origins":["latin"],"meaningCategories":["noble"],"meaning":"Der Groesste"},
-  {"name":"Marlene","gender":"female","origins":["hebrew","germanic"],"meaningCategories":["love","light"],"meaning":"Die Geliebte, die Strahlende"},
-  {"name":"Hannes","gender":"male","origins":["hebrew"],"meaningCategories":["divine"],"meaning":"Gott ist gnaedig, Kurzform von Johannes"},
-  {"name":"Victoria","gender":"female","origins":["latin"],"meaningCategories":["victorious"],"meaning":"Die Siegerin, die Siegreiche"},
-  {"name":"Florian","gender":"male","origins":["latin"],"meaningCategories":["nature","beautiful"],"meaning":"Der Bluehende, der Praeechtige"},
-  {"name":"Pia","gender":"female","origins":["latin"],"meaningCategories":["faithful","pure"],"meaning":"Die Fromme, die Gottesfuerchtige"},
-  {"name":"Sebastian","gender":"male","origins":["greek","latin"],"meaningCategories":["noble"],"meaning":"Der Erhabene, der Ehrwuerdige"},
-  {"name":"Jan","gender":"male","origins":["hebrew"],"meaningCategories":["divine"],"meaning":"Gott ist gnaedig"},
-  {"name":"Katharina","gender":"female","origins":["greek"],"meaningCategories":["pure"],"meaning":"Die Reine, die Aufrichtige"},
-  {"name":"Tobias","gender":"male","origins":["hebrew"],"meaningCategories":["divine"],"meaning":"Gott ist guetig"},
-  {"name":"Maria","gender":"female","origins":["hebrew"],"meaningCategories":["love"],"meaning":"Die Geliebte, Stern des Meeres"},
-  {"name":"Philipp","gender":"male","origins":["greek"],"meaningCategories":["love"],"meaning":"Der Pferdefreund, der Naturliebende"},
-  {"name":"Julia","gender":"female","origins":["latin"],"meaningCategories":["joyful"],"meaning":"Die dem Jupiter Geweihte, die Jugendliche"},
-  {"name":"Andreas","gender":"male","origins":["greek"],"meaningCategories":["brave","strong"],"meaning":"Der Tapfere, der Maennliche"},
-  {"name":"Leonie","gender":"female","origins":["latin","greek"],"meaningCategories":["brave","strong"],"meaning":"Die Loewin, die Starke"},
-  {"name":"Robin","gender":"unisex","origins":["germanic","english"],"meaningCategories":["light"],"meaning":"Der/die Strahlende, der glaenzende Ruhm"},
-  {"name":"Alina","gender":"female","origins":["germanic","greek"],"meaningCategories":["noble","light"],"meaning":"Die Edle, die Strahlende"},
-  {"name":"Luca","gender":"unisex","origins":["latin","italian"],"meaningCategories":["light"],"meaning":"Der/die Leuchtende, ins Licht Geborene"},
-  {"name":"Mila","gender":"female","origins":["slavic"],"meaningCategories":["love","graceful"],"meaning":"Die Liebliche, die Angenehme"},
-  {"name":"Toni","gender":"unisex","origins":["latin"],"meaningCategories":["strong"],"meaning":"Der/die Unschaetzbare"},
-  {"name":"Lara","gender":"female","origins":["latin","greek"],"meaningCategories":["light","victorious"],"meaning":"Die Lorbeerbekraenzte, die Schuetzende"},
-  {"name":"Mika","gender":"unisex","origins":["hebrew","scandinavian"],"meaningCategories":["divine"],"meaning":"Wer ist wie Gott?"},
-  {"name":"Valentina","gender":"female","origins":["latin"],"meaningCategories":["strong"],"meaning":"Die Kraeftige, die Gesunde"},
-  {"name":"Sascha","gender":"unisex","origins":["greek"],"meaningCategories":["strong","brave"],"meaning":"Der/die Beschuetzerin der Menschheit"},
-  {"name":"Lotta","gender":"female","origins":["germanic","scandinavian"],"meaningCategories":["strong"],"meaning":"Die Freie, die Tuechtige"},
-  {"name":"Kim","gender":"unisex","origins":["english","celtic"],"meaningCategories":["noble"],"meaning":"Der/die Edle, der koenigliche Huegel"},
-  {"name":"Annika","gender":"female","origins":["hebrew","scandinavian"],"meaningCategories":["graceful"],"meaning":"Die Begnadete, die Anmutige"},
-  {"name":"Andrea","gender":"unisex","origins":["greek"],"meaningCategories":["brave","strong"],"meaning":"Der/die Tapfere, der/die Maennliche"},
-  {"name":"Valentin","gender":"male","origins":["latin"],"meaningCategories":["strong"],"meaning":"Der Kraeftige, der Gesunde"},
-  {"name":"Helene","gender":"female","origins":["greek"],"meaningCategories":["light","beautiful"],"meaning":"Die Sonnengleiche, die Strahlende"},
-  {"name":"Emil","gender":"male","origins":["latin"],"meaningCategories":["brave"],"meaning":"Der Eifrige, der Nachahmende"},
-  {"name":"Lena","gender":"female","origins":["greek"],"meaningCategories":["light"],"meaning":"Die Leuchtende, die Strahlende"},
-  {"name":"Samuel","gender":"male","origins":["hebrew"],"meaningCategories":["divine","faithful"],"meaning":"Von Gott erbeten, von Gott erhoert"},
-  {"name":"Nora","gender":"female","origins":["celtic","latin"],"meaningCategories":["light","noble"],"meaning":"Die Strahlende, die Ehrenhafte"},
-  {"name":"Nico","gender":"unisex","origins":["greek"],"meaningCategories":["victorious"],"meaning":"Der/die Sieger/in des Volkes"},
-  {"name":"Stella","gender":"female","origins":["latin"],"meaningCategories":["light","nature"],"meaning":"Der Stern, die Strahlende"},
-  {"name":"Konrad","gender":"male","origins":["germanic"],"meaningCategories":["brave","wise"],"meaning":"Der kuehne Ratgeber"},
-  {"name":"Milena","gender":"female","origins":["slavic"],"meaningCategories":["love","graceful"],"meaning":"Die Liebliche, die Gnaedige"},
-  {"name":"Jona","gender":"unisex","origins":["hebrew"],"meaningCategories":["peaceful"],"meaning":"Die Taube, der/die Friedensbringer/in"},
-  {"name":"Rosalie","gender":"female","origins":["latin"],"meaningCategories":["nature","beautiful"],"meaning":"Die Rose, die Liebliche"},
-  {"name":"Oskar","gender":"male","origins":["germanic"],"meaningCategories":["divine"],"meaning":"Der Goetterspeer"},
-  {"name":"Alma","gender":"female","origins":["latin","hebrew"],"meaningCategories":["nature","graceful"],"meaning":"Die Naehrende, die Junge Frau"},
-  {"name":"Theodor","gender":"male","origins":["greek"],"meaningCategories":["divine"],"meaning":"Geschenk Gottes"},
-  {"name":"Matilda","gender":"female","origins":["germanic"],"meaningCategories":["strong","brave"],"meaning":"Die maechtige Kaempferin"},
-  {"name":"Wilhelm","gender":"male","origins":["germanic"],"meaningCategories":["brave","strong"],"meaning":"Der willensstarke Beschuetzer"}
+  {
+    "name": "Sophie",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "wise"
+    ],
+    "meaning": "Die Weise, Weisheit"
+  },
+  {
+    "name": "Noah",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Der Ruhende, Trost"
+  },
+  {
+    "name": "Marie",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "love"
+    ],
+    "meaning": "Die Geliebte, die Widerspenstige"
+  },
+  {
+    "name": "Ben",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Sohn der rechten Hand, der Glueckliche"
+  },
+  {
+    "name": "Anna",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "graceful"
+    ],
+    "meaning": "Die Begnadete, die Anmutige"
+  },
+  {
+    "name": "Lukas",
+    "gender": "male",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Der Leuchtende, ins Licht Geborene"
+  },
+  {
+    "name": "Lea",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Wildkuh, die Ermuedete"
+  },
+  {
+    "name": "Matteo",
+    "gender": "male",
+    "origins": [
+      "hebrew",
+      "italian"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Geschenk Gottes"
+  },
+  {
+    "name": "Emily",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die Eifrige, die Fleissige"
+  },
+  {
+    "name": "Maximilian",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Groesste, der Erhabenste"
+  },
+  {
+    "name": "Johanna",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine",
+      "graceful"
+    ],
+    "meaning": "Gott ist gnaedig"
+  },
+  {
+    "name": "Alexander",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der Beschuetzer der Maenner"
+  },
+  {
+    "name": "Charlotte",
+    "gender": "female",
+    "origins": [
+      "french",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Freie, die Tuechtige"
+  },
+  {
+    "name": "Jakob",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "faithful"
+    ],
+    "meaning": "Der Fersenhalter, Gott schuetzt"
+  },
+  {
+    "name": "Emma",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Grosse, die Allumfassende"
+  },
+  {
+    "name": "David",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "love"
+    ],
+    "meaning": "Der Geliebte, der Liebling"
+  },
+  {
+    "name": "Nele",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Die Strahlende, Kurzform von Cornelia"
+  },
+  {
+    "name": "Jonas",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Die Taube, der Friedensbringer"
+  },
+  {
+    "name": "Clara",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "light",
+      "pure"
+    ],
+    "meaning": "Die Helle, die Strahlende"
+  },
+  {
+    "name": "Tim",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Der Gott Ehrende"
+  },
+  {
+    "name": "Sophia",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "wise"
+    ],
+    "meaning": "Die Weisheit, die Kluge"
+  },
+  {
+    "name": "Moritz",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Dunkle, der Mohr"
+  },
+  {
+    "name": "Leni",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Die Leuchtende, Kurzform von Helena"
+  },
+  {
+    "name": "Niklas",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Sieg des Volkes"
+  },
+  {
+    "name": "Amelie",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die Tapfere, die Fleissige"
+  },
+  {
+    "name": "Julian",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "joyful"
+    ],
+    "meaning": "Der dem Jupiter Geweihte, der Jugendliche"
+  },
+  {
+    "name": "Sarah",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die Fuerstin, die Prinzessin"
+  },
+  {
+    "name": "Theo",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Geschenk Gottes, Kurzform von Theodor"
+  },
+  {
+    "name": "Laura",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Die Lorbeerbekraenzte, die Siegerin"
+  },
+  {
+    "name": "Tom",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Zwilling"
+  },
+  {
+    "name": "Maja",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "greek"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Die Goettin des Wachstums, die Grosse"
+  },
+  {
+    "name": "Simon",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "faithful"
+    ],
+    "meaning": "Der Erhoerte, Gott hat gehoert"
+  },
+  {
+    "name": "Helena",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light",
+      "beautiful"
+    ],
+    "meaning": "Die Strahlende, die Leuchtende"
+  },
+  {
+    "name": "Oscar",
+    "gender": "male",
+    "origins": [
+      "germanic",
+      "celtic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "brave"
+    ],
+    "meaning": "Der Goetterspeer, Gotteskaempfer"
+  },
+  {
+    "name": "Frieda",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Die Friedliche, die Schuetzende"
+  },
+  {
+    "name": "Karl",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Freie Mann, der Tuechtige"
+  },
+  {
+    "name": "Ida",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die Seherin, die Arbeitende"
+  },
+  {
+    "name": "Franz",
+    "gender": "male",
+    "origins": [
+      "latin",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Freie, der Franke"
+  },
+  {
+    "name": "Greta",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "pure"
+    ],
+    "meaning": "Die Perle, Kurzform von Margarete"
+  },
+  {
+    "name": "Ludwig",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der beruehmte Kaempfer"
+  },
+  {
+    "name": "Martha",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Herrin, die Gebieterin"
+  },
+  {
+    "name": "Friedrich",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "noble"
+    ],
+    "meaning": "Der friedliche Herrscher"
+  },
+  {
+    "name": "Elisabeth",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine",
+      "faithful"
+    ],
+    "meaning": "Mein Gott ist Fuelle, die Gott Geweihte"
+  },
+  {
+    "name": "Anton",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Unschaetzbare, der Praechtige"
+  },
+  {
+    "name": "Mathilda",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die maechtige Kaempferin"
+  },
+  {
+    "name": "Henrik",
+    "gender": "male",
+    "origins": [
+      "germanic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Herrscher des Heims"
+  },
+  {
+    "name": "Luise",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "french"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die beruehmte Kaempferin"
+  },
+  {
+    "name": "Rafael",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott hat geheilt"
+  },
+  {
+    "name": "Carla",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Freie, die Tuechtige"
+  },
+  {
+    "name": "Leonard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der starke Loewe"
+  },
+  {
+    "name": "Vera",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "slavic"
+    ],
+    "meaningCategories": [
+      "faithful"
+    ],
+    "meaning": "Die Wahre, die Wahrhaftige"
+  },
+  {
+    "name": "Louis",
+    "gender": "male",
+    "origins": [
+      "germanic",
+      "french"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der beruehmte Krieger"
+  },
+  {
+    "name": "Jannik",
+    "gender": "male",
+    "origins": [
+      "hebrew",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist gnaedig"
+  },
+  {
+    "name": "Paula",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "graceful"
+    ],
+    "meaning": "Die Kleine, die Bescheidene"
+  },
+  {
+    "name": "Eva",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Die Lebensspenderin, das Leben"
+  },
+  {
+    "name": "Max",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Groesste"
+  },
+  {
+    "name": "Marlene",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "love",
+      "light"
+    ],
+    "meaning": "Die Geliebte, die Strahlende"
+  },
+  {
+    "name": "Hannes",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist gnaedig, Kurzform von Johannes"
+  },
+  {
+    "name": "Victoria",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Die Siegerin, die Siegreiche"
+  },
+  {
+    "name": "Florian",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "nature",
+      "beautiful"
+    ],
+    "meaning": "Der Bluehende, der Praeechtige"
+  },
+  {
+    "name": "Pia",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "faithful",
+      "pure"
+    ],
+    "meaning": "Die Fromme, die Gottesfuerchtige"
+  },
+  {
+    "name": "Sebastian",
+    "gender": "male",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Erhabene, der Ehrwuerdige"
+  },
+  {
+    "name": "Jan",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist gnaedig"
+  },
+  {
+    "name": "Katharina",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "pure"
+    ],
+    "meaning": "Die Reine, die Aufrichtige"
+  },
+  {
+    "name": "Tobias",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist guetig"
+  },
+  {
+    "name": "Maria",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "love"
+    ],
+    "meaning": "Die Geliebte, Stern des Meeres"
+  },
+  {
+    "name": "Philipp",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "love"
+    ],
+    "meaning": "Der Pferdefreund, der Naturliebende"
+  },
+  {
+    "name": "Julia",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "joyful"
+    ],
+    "meaning": "Die dem Jupiter Geweihte, die Jugendliche"
+  },
+  {
+    "name": "Andreas",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der Tapfere, der Maennliche"
+  },
+  {
+    "name": "Leonie",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "greek"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Die Loewin, die Starke"
+  },
+  {
+    "name": "Robin",
+    "gender": "unisex",
+    "origins": [
+      "germanic",
+      "english"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Der/die Strahlende, der glaenzende Ruhm"
+  },
+  {
+    "name": "Alina",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "greek"
+    ],
+    "meaningCategories": [
+      "noble",
+      "light"
+    ],
+    "meaning": "Die Edle, die Strahlende"
+  },
+  {
+    "name": "Luca",
+    "gender": "unisex",
+    "origins": [
+      "latin",
+      "italian"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Der/die Leuchtende, ins Licht Geborene"
+  },
+  {
+    "name": "Mila",
+    "gender": "female",
+    "origins": [
+      "slavic"
+    ],
+    "meaningCategories": [
+      "love",
+      "graceful"
+    ],
+    "meaning": "Die Liebliche, die Angenehme"
+  },
+  {
+    "name": "Toni",
+    "gender": "unisex",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der/die Unschaetzbare"
+  },
+  {
+    "name": "Lara",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "greek"
+    ],
+    "meaningCategories": [
+      "light",
+      "victorious"
+    ],
+    "meaning": "Die Lorbeerbekraenzte, die Schuetzende"
+  },
+  {
+    "name": "Mika",
+    "gender": "unisex",
+    "origins": [
+      "hebrew",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Wer ist wie Gott?"
+  },
+  {
+    "name": "Valentina",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Kraeftige, die Gesunde"
+  },
+  {
+    "name": "Sascha",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der/die Beschuetzerin der Menschheit"
+  },
+  {
+    "name": "Lotta",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Freie, die Tuechtige"
+  },
+  {
+    "name": "Kim",
+    "gender": "unisex",
+    "origins": [
+      "english",
+      "celtic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der/die Edle, der koenigliche Huegel"
+  },
+  {
+    "name": "Annika",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "graceful"
+    ],
+    "meaning": "Die Begnadete, die Anmutige"
+  },
+  {
+    "name": "Andrea",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der/die Tapfere, der/die Maennliche"
+  },
+  {
+    "name": "Valentin",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Kraeftige, der Gesunde"
+  },
+  {
+    "name": "Helene",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light",
+      "beautiful"
+    ],
+    "meaning": "Die Sonnengleiche, die Strahlende"
+  },
+  {
+    "name": "Emil",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Eifrige, der Nachahmende"
+  },
+  {
+    "name": "Lena",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Die Leuchtende, die Strahlende"
+  },
+  {
+    "name": "Samuel",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine",
+      "faithful"
+    ],
+    "meaning": "Von Gott erbeten, von Gott erhoert"
+  },
+  {
+    "name": "Nora",
+    "gender": "female",
+    "origins": [
+      "celtic",
+      "latin"
+    ],
+    "meaningCategories": [
+      "light",
+      "noble"
+    ],
+    "meaning": "Die Strahlende, die Ehrenhafte"
+  },
+  {
+    "name": "Nico",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der/die Sieger/in des Volkes"
+  },
+  {
+    "name": "Stella",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "light",
+      "nature"
+    ],
+    "meaning": "Der Stern, die Strahlende"
+  },
+  {
+    "name": "Konrad",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Der kuehne Ratgeber"
+  },
+  {
+    "name": "Milena",
+    "gender": "female",
+    "origins": [
+      "slavic"
+    ],
+    "meaningCategories": [
+      "love",
+      "graceful"
+    ],
+    "meaning": "Die Liebliche, die Gnaedige"
+  },
+  {
+    "name": "Jona",
+    "gender": "unisex",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Die Taube, der/die Friedensbringer/in"
+  },
+  {
+    "name": "Rosalie",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "nature",
+      "beautiful"
+    ],
+    "meaning": "Die Rose, die Liebliche"
+  },
+  {
+    "name": "Oskar",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Der Goetterspeer"
+  },
+  {
+    "name": "Alma",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "nature",
+      "graceful"
+    ],
+    "meaning": "Die Naehrende, die Junge Frau"
+  },
+  {
+    "name": "Theodor",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Geschenk Gottes"
+  },
+  {
+    "name": "Matilda",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die maechtige Kaempferin"
+  },
+  {
+    "name": "Wilhelm",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der willensstarke Beschuetzer"
+  },
+  {
+    "name": "Bastian",
+    "gender": "male",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Erhabene, der Ehrwuerdige"
+  },
+  {
+    "name": "Dominik",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Dem Herrn gehoerend, der Sonntagsgeborene"
+  },
+  {
+    "name": "Elena",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light",
+      "beautiful"
+    ],
+    "meaning": "Die Strahlende, die Sonnengleiche"
+  },
+  {
+    "name": "Fabian",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Edle, der Bohnenpflanzer"
+  },
+  {
+    "name": "Heinrich",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Der Herrscher des Heims, der Maeechtige"
+  },
+  {
+    "name": "Ilse",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "faithful"
+    ],
+    "meaning": "Mein Gott ist Fuelle, Kurzform von Elisabeth"
+  },
+  {
+    "name": "Johann",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist gnaedig"
+  },
+  {
+    "name": "Katrin",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "pure"
+    ],
+    "meaning": "Die Reine, die Aufrichtige"
+  },
+  {
+    "name": "Lorenz",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der Lorbeerbekraenzte, aus Laurentum"
+  },
+  {
+    "name": "Nikolaus",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der Sieg des Volkes"
+  },
+  {
+    "name": "Oliver",
+    "gender": "male",
+    "origins": [
+      "latin",
+      "french"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "nature"
+    ],
+    "meaning": "Der Olivenbaumpflanzer, der Friedliche"
+  },
+  {
+    "name": "Petra",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Fels, die Unerschuetterliche"
+  },
+  {
+    "name": "Quentin",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Fuenfte"
+  },
+  {
+    "name": "Renate",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Die Wiedergeborene, die Erneuerte"
+  },
+  {
+    "name": "Stefan",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Bekraenzte, der Gekroente"
+  },
+  {
+    "name": "Theresa",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "nature",
+      "strong"
+    ],
+    "meaning": "Die Jaegerin, von der Insel Thera"
+  },
+  {
+    "name": "Ulrike",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "prosperity"
+    ],
+    "meaning": "Die Herrscherin des Erbgutes"
+  },
+  {
+    "name": "Volker",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Volkskaempfer, der Krieger"
+  },
+  {
+    "name": "Werner",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der schuetzende Krieger"
+  },
+  {
+    "name": "Xaver",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Der Glaenzende, vom neuen Haus"
+  },
+  {
+    "name": "Yvonne",
+    "gender": "female",
+    "origins": [
+      "french",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Die Eibenholzschnitzerin"
+  },
+  {
+    "name": "Zoe",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Das Leben, die Lebendige"
+  },
+  {
+    "name": "Adalbert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "light"
+    ],
+    "meaning": "Der durch Adel Glaenzende"
+  },
+  {
+    "name": "Brigitte",
+    "gender": "female",
+    "origins": [
+      "celtic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Die Erhabene, die Hohe"
+  },
+  {
+    "name": "Conrad",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Der kuehne Ratgeber"
+  },
+  {
+    "name": "Dagmar",
+    "gender": "female",
+    "origins": [
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "beautiful",
+      "noble"
+    ],
+    "meaning": "Die beruehmte Tagsmaedchen"
+  },
+  {
+    "name": "Elfriede",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "strong"
+    ],
+    "meaning": "Die durch Elfenkraft Schuetzende"
+  },
+  {
+    "name": "Fritz",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "noble"
+    ],
+    "meaning": "Der friedliche Herrscher, Kurzform"
+  },
+  {
+    "name": "Gerda",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Beschuetzerin, die Umzaeunte"
+  },
+  {
+    "name": "Hubertus",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "wise",
+      "light"
+    ],
+    "meaning": "Der glaenzende Verstand"
+  },
+  {
+    "name": "Irmgard",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "noble"
+    ],
+    "meaning": "Die allumfassend Beschuetzte"
+  },
+  {
+    "name": "Juergen",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Der Landmann, der Bauer"
+  },
+  {
+    "name": "Klara",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "light",
+      "pure"
+    ],
+    "meaning": "Die Helle, die Strahlende, die Klare"
+  },
+  {
+    "name": "Leopold",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Kuehne im Volk"
+  },
+  {
+    "name": "Margarete",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "pure",
+      "beautiful"
+    ],
+    "meaning": "Die Perle"
+  },
+  {
+    "name": "Norbert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "light",
+      "brave"
+    ],
+    "meaning": "Der glaenzende Nordmann"
+  },
+  {
+    "name": "Ortwin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Freund des Speeres"
+  },
+  {
+    "name": "Pauline",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "graceful"
+    ],
+    "meaning": "Die Kleine, die Bescheidene"
+  },
+  {
+    "name": "Rainer",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "wise",
+      "brave"
+    ],
+    "meaning": "Der ratgebende Krieger"
+  },
+  {
+    "name": "Siegfried",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious",
+      "peaceful"
+    ],
+    "meaning": "Der durch Sieg Frieden Bringende"
+  },
+  {
+    "name": "Trude",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Starke, Kurzform von Gertrud"
+  },
+  {
+    "name": "Udo",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "prosperity"
+    ],
+    "meaning": "Der Besitzende, der Erbe"
+  },
+  {
+    "name": "Veronika",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Die Siegbringende, das wahre Bild"
+  },
+  {
+    "name": "Waltraud",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die waltende Staerke"
+  },
+  {
+    "name": "Albrecht",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "light"
+    ],
+    "meaning": "Der durch Adel Glaenzende"
+  },
+  {
+    "name": "Brunhilde",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Die Kaempferin in der Bruenne"
+  },
+  {
+    "name": "Clemens",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "graceful"
+    ],
+    "meaning": "Der Sanftmuetige, der Milde"
+  },
+  {
+    "name": "Dorothea",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Geschenk Gottes"
+  },
+  {
+    "name": "Ernst",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der Ernsthafte, der Entschlossene"
+  },
+  {
+    "name": "Franziska",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "italian"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Freie, die kleine Franzosin"
+  },
+  {
+    "name": "Gottfried",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "peaceful"
+    ],
+    "meaning": "Der von Gott Beschuetzte"
+  },
+  {
+    "name": "Helga",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "pure"
+    ],
+    "meaning": "Die Heilige, die Geweihte"
+  },
+  {
+    "name": "Ingeborg",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "strong"
+    ],
+    "meaning": "Die von Gott Ing Beschuetzte"
+  },
+  {
+    "name": "Joachim",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Von Gott aufgerichtet"
+  },
+  {
+    "name": "Karoline",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "french"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Freie, die Tuechtige"
+  },
+  {
+    "name": "Lothar",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der beruehmte Krieger des Volkes"
+  },
+  {
+    "name": "Mechthild",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die maechtige Kaempferin"
+  },
+  {
+    "name": "Reinhild",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Die ratgebende Kaempferin"
+  },
+  {
+    "name": "Sabine",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Sabinerin, aus dem Volk der Sabiner"
+  },
+  {
+    "name": "Thilo",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Maechtige des Volkes"
+  },
+  {
+    "name": "Ursula",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Die kleine Baerin"
+  },
+  {
+    "name": "Wilfried",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "brave"
+    ],
+    "meaning": "Der den Frieden will"
+  },
+  {
+    "name": "Bettina",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "italian"
+    ],
+    "meaningCategories": [
+      "divine",
+      "faithful"
+    ],
+    "meaning": "Mein Gott ist Fuelle"
+  },
+  {
+    "name": "Detlef",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Erbe des Volkes"
+  },
+  {
+    "name": "Edith",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "english"
+    ],
+    "meaningCategories": [
+      "prosperity",
+      "brave"
+    ],
+    "meaning": "Die fuer ihr Erbe Kaempfende"
+  },
+  {
+    "name": "Ferdinand",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "peaceful"
+    ],
+    "meaning": "Der kuehne Beschuetzer"
+  },
+  {
+    "name": "Gertrud",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die starke Speerkämpferin"
+  },
+  {
+    "name": "Heinz",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Herrscher des Heims, Kurzform"
+  },
+  {
+    "name": "Irene",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Die Friedliche, die Friedensbringerin"
+  },
+  {
+    "name": "Jochen",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Von Gott aufgerichtet, Kurzform"
+  },
+  {
+    "name": "Kaethe",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "pure"
+    ],
+    "meaning": "Die Reine, Kurzform von Katharina"
+  },
+  {
+    "name": "Lieselotte",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "strong"
+    ],
+    "meaning": "Die Gott Geweihte und Freie"
+  },
+  {
+    "name": "Manfred",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "strong"
+    ],
+    "meaning": "Der Mann des Friedens"
+  },
+  {
+    "name": "Olga",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "slavic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "pure"
+    ],
+    "meaning": "Die Heilige, die Geweihte"
+  },
+  {
+    "name": "Eberhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der starke Eber, der Tapfere"
+  },
+  {
+    "name": "Hannelore",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "light"
+    ],
+    "meaning": "Die begnadete Strahlende"
+  },
+  {
+    "name": "Dietrich",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Der Volksherrscher, der Maeechtige"
+  },
+  {
+    "name": "Roswitha",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "beautiful"
+    ],
+    "meaning": "Die ruhmreiche Starke"
+  },
+  {
+    "name": "Burkhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der starke Beschuetzer"
+  },
+  {
+    "name": "Hildegard",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Die schuetzende Kaempferin"
+  },
+  {
+    "name": "Armin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Grosse, der Umfassende"
+  },
+  {
+    "name": "Gisela",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der edle Spross, die Geisel"
+  },
+  {
+    "name": "Berthold",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "light"
+    ],
+    "meaning": "Der glaenzende Herrscher"
+  },
+  {
+    "name": "Heidrun",
+    "gender": "female",
+    "origins": [
+      "germanic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die edle Zauberin"
+  },
+  {
+    "name": "Arnulf",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der Adlerwolf, der Kaempfer"
+  },
+  {
+    "name": "Adelheid",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Von edlem Wesen, die Adlige"
+  },
+  {
+    "name": "Sieglinde",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious",
+      "graceful"
+    ],
+    "meaning": "Die milde Siegerin"
+  },
+  {
+    "name": "Ruprecht",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "light",
+      "noble"
+    ],
+    "meaning": "Der ruhmreich Glaenzende"
+  },
+  {
+    "name": "Gudrun",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Die mit goettlichem Wissen Kaempfende"
+  },
+  {
+    "name": "Erwin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "noble"
+    ],
+    "meaning": "Der Freund des Heeres"
+  },
+  {
+    "name": "Hedwig",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die Kaempferin im Kampf"
+  },
+  {
+    "name": "Gottlieb",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "love"
+    ],
+    "meaning": "Der Gott Liebende"
+  },
+  {
+    "name": "Kunigunde",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "noble"
+    ],
+    "meaning": "Die aus edlem Geschlecht Kaempfende"
+  },
+  {
+    "name": "Helmut",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der mutige Beschuetzer"
+  },
+  {
+    "name": "Anneliese",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "divine"
+    ],
+    "meaning": "Die von Gottes Gnade Begnadete"
+  },
+  {
+    "name": "Klaus",
+    "gender": "male",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Sieg des Volkes, Kurzform von Nikolaus"
+  },
+  {
+    "name": "Christiane",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "faithful",
+      "divine"
+    ],
+    "meaning": "Die Christin, die Gesalbte"
+  },
+  {
+    "name": "Dieter",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Der Volksherrscher"
+  },
+  {
+    "name": "Hannelise",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "divine"
+    ],
+    "meaning": "Die begnadete Gottgeweihte"
+  },
+  {
+    "name": "Gerhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der starke Speermann"
+  },
+  {
+    "name": "Elfrieda",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful",
+      "nature"
+    ],
+    "meaning": "Die durch Elfen Friedliche"
+  },
+  {
+    "name": "Hartmut",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der hartmutige Kaempfer"
+  },
+  {
+    "name": "Hilde",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Die Kaempferin, die Beschuetzerin"
+  },
+  {
+    "name": "Baldur",
+    "gender": "male",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "light"
+    ],
+    "meaning": "Der kuehne Prinz, der Leuchtende"
+  },
+  {
+    "name": "Liselotte",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine",
+      "strong"
+    ],
+    "meaning": "Die Gottgeweihte Kaempferin"
+  },
+  {
+    "name": "Ekkehard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der Schwertstarke"
+  },
+  {
+    "name": "Walpurga",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die auf der Burg Waltende"
+  },
+  {
+    "name": "Ruediger",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der beruehmte Speermann"
+  },
+  {
+    "name": "Elke",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die Edle, Kurzform von Adelheid"
+  },
+  {
+    "name": "Bernhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der Baerenstarke"
+  },
+  {
+    "name": "Christa",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "faithful",
+      "divine"
+    ],
+    "meaning": "Die Christin, die Gesalbte"
+  },
+  {
+    "name": "Siegmund",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious",
+      "strong"
+    ],
+    "meaning": "Der siegreiche Beschuetzer"
+  },
+  {
+    "name": "Rosemarie",
+    "gender": "female",
+    "origins": [
+      "latin",
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "nature",
+      "love"
+    ],
+    "meaning": "Die geliebte Rose"
+  },
+  {
+    "name": "Wendelin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Wandernde, der Wandale"
+  },
+  {
+    "name": "Marianne",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "french"
+    ],
+    "meaningCategories": [
+      "love",
+      "graceful"
+    ],
+    "meaning": "Die geliebte Begnadete"
+  },
+  {
+    "name": "Siegbert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious",
+      "light"
+    ],
+    "meaning": "Der glaenzend Siegreiche"
+  },
+  {
+    "name": "Walburga",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Herrscherin der Burg"
+  },
+  {
+    "name": "Burkhart",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der starke Schuetzer der Burg"
+  },
+  {
+    "name": "Kornelia",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Starke, die Gehoernte"
+  },
+  {
+    "name": "Reinhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Der ratgebende Held"
+  },
+  {
+    "name": "Ottilie",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "prosperity"
+    ],
+    "meaning": "Die Besitzende, die Reiche"
+  },
+  {
+    "name": "Winfried",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Der Friedensfreund"
+  },
+  {
+    "name": "Liesel",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine",
+      "faithful"
+    ],
+    "meaning": "Mein Gott ist Fuelle, Kurzform"
+  },
+  {
+    "name": "Egon",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Schwertstarke, der Schuetzer"
+  },
+  {
+    "name": "Hermine",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Kriegerin, die Allumfassende"
+  },
+  {
+    "name": "Wolfram",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der Wolf und der Rabe"
+  },
+  {
+    "name": "Wilhelmine",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Die willensstarke Beschuetzerin"
+  },
+  {
+    "name": "Reinhold",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "wise",
+      "noble"
+    ],
+    "meaning": "Der ratgebende Herrscher"
+  },
+  {
+    "name": "Auguste",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die Erhabene, die Ehrwuerdige"
+  },
+  {
+    "name": "Gunther",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Kampfkrieger"
+  },
+  {
+    "name": "Mathilde",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Die maechtige Kaempferin"
+  },
+  {
+    "name": "Engelbert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "light",
+      "noble"
+    ],
+    "meaning": "Der durch Engel Glaenzende"
+  },
+  {
+    "name": "Leonore",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Die Leuchtende, Gott ist mein Licht"
+  },
+  {
+    "name": "Siegward",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious",
+      "brave"
+    ],
+    "meaning": "Der siegreiche Waechter"
+  },
+  {
+    "name": "Dorothee",
+    "gender": "female",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gottes Geschenk"
+  },
+  {
+    "name": "Fridolin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Der kleine Friedliche"
+  },
+  {
+    "name": "Edeltraud",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Die edle Starke"
+  },
+  {
+    "name": "Herbert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "light"
+    ],
+    "meaning": "Der glaenzende Krieger"
+  },
+  {
+    "name": "Constanze",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "strong",
+      "faithful"
+    ],
+    "meaning": "Die Standhafte, die Bestaendige"
+  },
+  {
+    "name": "Torsten",
+    "gender": "male",
+    "origins": [
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Stein des Thor"
+  },
+  {
+    "name": "Rotraut",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "beautiful"
+    ],
+    "meaning": "Die ruhmreiche Ratgeberin"
+  },
+  {
+    "name": "Gernot",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Speermann in der Not"
+  },
+  {
+    "name": "Karin",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "pure"
+    ],
+    "meaning": "Die Reine, Form von Katharina"
+  },
+  {
+    "name": "Willi",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der willensstarke Beschuetzer"
+  },
+  {
+    "name": "Monika",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "latin"
+    ],
+    "meaningCategories": [
+      "wise"
+    ],
+    "meaning": "Die Mahnerin, die Ratgeberin"
+  },
+  {
+    "name": "Normann",
+    "gender": "male",
+    "origins": [
+      "germanic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der Mann aus dem Norden"
+  },
+  {
+    "name": "Birgit",
+    "gender": "female",
+    "origins": [
+      "celtic",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "noble",
+      "strong"
+    ],
+    "meaning": "Die Erhabene, die Hohe"
+  },
+  {
+    "name": "Alois",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "wise"
+    ],
+    "meaning": "Der Weise, der Allwissende"
+  },
+  {
+    "name": "Erika",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die allein Herrschende"
+  },
+  {
+    "name": "Folkert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der starke Volkskaempfer"
+  },
+  {
+    "name": "Hannelene",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "greek"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "light"
+    ],
+    "meaning": "Die begnadete Strahlende"
+  },
+  {
+    "name": "Arno",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Adler, der Starke"
+  },
+  {
+    "name": "Marlies",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "love",
+      "divine"
+    ],
+    "meaning": "Die Geliebte, die Gottgeweihte"
+  },
+  {
+    "name": "Willibald",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der kuehn Wollende"
+  },
+  {
+    "name": "Traute",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong",
+      "faithful"
+    ],
+    "meaning": "Die Vertraute, die Starke"
+  },
+  {
+    "name": "Hubert",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "wise",
+      "light"
+    ],
+    "meaning": "Der hell Denkende"
+  },
+  {
+    "name": "Eleonore",
+    "gender": "female",
+    "origins": [
+      "greek",
+      "french"
+    ],
+    "meaningCategories": [
+      "light"
+    ],
+    "meaning": "Die Leuchtende, Gott ist mein Licht"
+  },
+  {
+    "name": "Gebhard",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der Freigebige, der Starke"
+  },
+  {
+    "name": "Annegret",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "greek"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "pure"
+    ],
+    "meaning": "Die begnadete Perle"
+  },
+  {
+    "name": "Bertram",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "light",
+      "brave"
+    ],
+    "meaning": "Der glaenzende Rabe"
+  },
+  {
+    "name": "Irmtraud",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die vertrauenswuerdige Starke"
+  },
+  {
+    "name": "Nikolai",
+    "gender": "male",
+    "origins": [
+      "greek",
+      "slavic"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der Sieg des Volkes"
+  },
+  {
+    "name": "Almut",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "noble"
+    ],
+    "meaning": "Die edle Beschuetzerin"
+  },
+  {
+    "name": "Korbinian",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Der Rabe, der Schwarzhaarige"
+  },
+  {
+    "name": "Traudl",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Starke, Kurzform von Waltraud"
+  },
+  {
+    "name": "Adalwin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der edle Freund"
+  },
+  {
+    "name": "Hannalore",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "light"
+    ],
+    "meaning": "Die begnadete Lorbeertraegerin"
+  },
+  {
+    "name": "Klemens",
+    "gender": "male",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "graceful",
+      "peaceful"
+    ],
+    "meaning": "Der Guetige, der Milde"
+  },
+  {
+    "name": "Henning",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der Herrscher des Heims"
+  },
+  {
+    "name": "Lore",
+    "gender": "female",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Die Lorbeerbekraenzte, Kurzform"
+  },
+  {
+    "name": "Volkmar",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der beruehmte Volkskaempfer"
+  },
+  {
+    "name": "Inge",
+    "gender": "female",
+    "origins": [
+      "scandinavian",
+      "germanic"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Die dem Gott Ing Geweihte"
+  },
+  {
+    "name": "Kaspar",
+    "gender": "male",
+    "origins": [
+      "persian"
+    ],
+    "meaningCategories": [
+      "prosperity"
+    ],
+    "meaning": "Der Schatzmeister"
+  },
+  {
+    "name": "Liese",
+    "gender": "female",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Mein Gott ist Fuelle"
+  },
+  {
+    "name": "Hermann",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "strong"
+    ],
+    "meaning": "Der Krieger, der Heeresmann"
+  },
+  {
+    "name": "Heike",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Die Herrscherin des Heims"
+  },
+  {
+    "name": "Matthias",
+    "gender": "male",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Geschenk Gottes, Gabe des Herrn"
+  },
+  {
+    "name": "Annette",
+    "gender": "female",
+    "origins": [
+      "hebrew",
+      "french"
+    ],
+    "meaningCategories": [
+      "graceful"
+    ],
+    "meaning": "Die Begnadete, die Anmutige"
+  },
+  {
+    "name": "Alfons",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble",
+      "brave"
+    ],
+    "meaning": "Der edle und kampfbereite"
+  },
+  {
+    "name": "Traudel",
+    "gender": "female",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Die Vertraute, die Starke"
+  },
+  {
+    "name": "Otfried",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "prosperity",
+      "peaceful"
+    ],
+    "meaning": "Der friedvolle Besitzende"
+  },
+  {
+    "name": "Ingrid",
+    "gender": "female",
+    "origins": [
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "beautiful",
+      "divine"
+    ],
+    "meaning": "Die schoene Goettin, Ings Reiterin"
+  },
+  {
+    "name": "Balduin",
+    "gender": "male",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der kuehne Freund"
+  },
+  {
+    "name": "Alex",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der/die Beschuetzer/in der Menschen"
+  },
+  {
+    "name": "Maxi",
+    "gender": "unisex",
+    "origins": [
+      "latin"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der/die Groesste"
+  },
+  {
+    "name": "Eike",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "strong"
+    ],
+    "meaning": "Der/die mit dem Schwert"
+  },
+  {
+    "name": "Janne",
+    "gender": "unisex",
+    "origins": [
+      "hebrew",
+      "scandinavian"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Gott ist gnaedig"
+  },
+  {
+    "name": "Nicola",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der/die Sieger/in des Volkes"
+  },
+  {
+    "name": "Friedel",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "peaceful"
+    ],
+    "meaning": "Der/die Friedliche"
+  },
+  {
+    "name": "Wendel",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave"
+    ],
+    "meaning": "Der/die Wandernde"
+  },
+  {
+    "name": "Maxime",
+    "gender": "unisex",
+    "origins": [
+      "latin",
+      "french"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der/die Groesste, der/die Erhabenste"
+  },
+  {
+    "name": "Rene",
+    "gender": "unisex",
+    "origins": [
+      "latin",
+      "french"
+    ],
+    "meaningCategories": [
+      "nature"
+    ],
+    "meaning": "Der/die Wiedergeborene"
+  },
+  {
+    "name": "Noel",
+    "gender": "unisex",
+    "origins": [
+      "french",
+      "latin"
+    ],
+    "meaningCategories": [
+      "joyful"
+    ],
+    "meaning": "Der/die an Weihnachten Geborene"
+  },
+  {
+    "name": "Simone",
+    "gender": "unisex",
+    "origins": [
+      "hebrew",
+      "french"
+    ],
+    "meaningCategories": [
+      "faithful"
+    ],
+    "meaning": "Der/die Erhoerte, Gott hat gehoert"
+  },
+  {
+    "name": "Yael",
+    "gender": "unisex",
+    "origins": [
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "nature",
+      "strong"
+    ],
+    "meaning": "Die Bergziege, der/die Starke"
+  },
+  {
+    "name": "Alexis",
+    "gender": "unisex",
+    "origins": [
+      "greek"
+    ],
+    "meaningCategories": [
+      "strong",
+      "brave"
+    ],
+    "meaning": "Der/die Schuetzende, der/die Abwehrende"
+  },
+  {
+    "name": "Dominique",
+    "gender": "unisex",
+    "origins": [
+      "latin",
+      "french"
+    ],
+    "meaningCategories": [
+      "divine"
+    ],
+    "meaning": "Dem Herrn gehoerend"
+  },
+  {
+    "name": "Tjade",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "noble"
+    ],
+    "meaning": "Der/die aus dem Volk"
+  },
+  {
+    "name": "Sigi",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "victorious"
+    ],
+    "meaning": "Der/die Siegreiche"
+  },
+  {
+    "name": "Conny",
+    "gender": "unisex",
+    "origins": [
+      "germanic"
+    ],
+    "meaningCategories": [
+      "brave",
+      "wise"
+    ],
+    "meaning": "Der/die kuehne Ratgeber/in"
+  },
+  {
+    "name": "Marian",
+    "gender": "unisex",
+    "origins": [
+      "latin",
+      "hebrew"
+    ],
+    "meaningCategories": [
+      "love"
+    ],
+    "meaning": "Der/die Geliebte, aus dem Meer"
+  }
 ]
