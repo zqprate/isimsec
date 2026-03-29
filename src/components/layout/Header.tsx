@@ -3,14 +3,16 @@
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Heart, Globe, ChevronDown } from "lucide-react";
+import { Menu, X, Heart, Globe, ChevronDown, Wrench } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { localeNames, type Locale } from "@/i18n/routing";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { LogoFull } from "@/components/ui/Logo";
 
 /* ── Nav link with underline hover ── */
-function NavLink({ href, children }: { href: "/" | "/isimler" | "/erkek-isimleri" | "/kiz-isimleri" | "/populer-isimler"; children: React.ReactNode }) {
+type NavHrefType = "/" | "/isimler" | "/erkek-isimleri" | "/kiz-isimleri" | "/populer-isimler" | "/isim-secici" | "/soyad-uyumu" | "/isim-karsilastir" | "/isim-kombinator" | "/ebeveyn-uyumu";
+
+function NavLink({ href, children }: { href: NavHrefType; children: React.ReactNode }) {
   return (
     <Link
       href={href}
@@ -25,6 +27,7 @@ export function Header({ locale }: { locale: Locale }) {
   const t = useTranslations("nav");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [toolsOpen, setToolsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
@@ -35,12 +38,23 @@ export function Header({ locale }: { locale: Locale }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const navItems: { href: "/" | "/isimler" | "/erkek-isimleri" | "/kiz-isimleri" | "/populer-isimler"; label: string }[] = [
+  const tTools = useTranslations("home");
+
+  type NavHref = "/" | "/isimler" | "/erkek-isimleri" | "/kiz-isimleri" | "/populer-isimler" | "/isim-secici" | "/soyad-uyumu" | "/isim-karsilastir" | "/isim-kombinator" | "/ebeveyn-uyumu";
+
+  const navItems: { href: NavHref; label: string }[] = [
     { href: "/", label: t("home") },
     { href: "/isimler", label: t("names") },
     { href: "/erkek-isimleri", label: t("boyNames") },
     { href: "/kiz-isimleri", label: t("girlNames") },
-    { href: "/populer-isimler", label: t("popular") },
+  ];
+
+  const toolItems: { href: NavHref; label: string }[] = [
+    { href: "/isim-secici", label: tTools("toolNamePicker") },
+    { href: "/soyad-uyumu", label: tTools("toolSurname") },
+    { href: "/isim-karsilastir", label: tTools("toolCompare") },
+    { href: "/isim-kombinator", label: tTools("toolCombinator") },
+    { href: "/ebeveyn-uyumu", label: tTools("toolParent") },
   ];
 
   function switchLocale(newLocale: string) {
@@ -71,12 +85,50 @@ export function Header({ locale }: { locale: Locale }) {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-5">
             {navItems.map((item) => (
               <NavLink key={item.href} href={item.href}>
                 {item.label}
               </NavLink>
             ))}
+
+            {/* Tools dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setToolsOpen(!toolsOpen)}
+                className="relative text-[13px] font-semibold text-slate-600 hover:text-ocean-600 transition-colors duration-200 py-1 flex items-center gap-1"
+              >
+                <Wrench className="h-3.5 w-3.5" />
+                {t("tools")}
+                <ChevronDown className={`h-3 w-3 transition-transform duration-200 ${toolsOpen ? "rotate-180" : ""}`} />
+              </button>
+
+              <AnimatePresence>
+                {toolsOpen && (
+                  <>
+                    <div className="fixed inset-0 z-40" onClick={() => setToolsOpen(false)} />
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.95, y: -4 }}
+                      animate={{ opacity: 1, scale: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.95, y: -4 }}
+                      transition={{ duration: 0.15, ease: [0.16, 1, 0.3, 1] as const }}
+                      className="absolute left-0 mt-2 w-52 glass-strong rounded-card overflow-hidden z-50 shadow-elevated"
+                    >
+                      {toolItems.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          onClick={() => setToolsOpen(false)}
+                          className="block px-4 py-2.5 text-sm text-slate-600 hover:text-ocean-600 hover:bg-white/50 transition-colors"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  </>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Right side */}
@@ -176,6 +228,26 @@ export function Header({ locale }: { locale: Locale }) {
                     </Link>
                   </motion.div>
                 ))}
+
+                <div className="pt-2 mt-2 border-t border-white/20">
+                  <p className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-ocean-500">{t("tools")}</p>
+                  {toolItems.map((item, i) => (
+                    <motion.div
+                      key={item.href}
+                      initial={{ opacity: 0, x: -12 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: (navItems.length + i) * 0.05, duration: 0.3 }}
+                    >
+                      <Link
+                        href={item.href}
+                        onClick={() => setMobileOpen(false)}
+                        className="block px-4 py-3 text-sm font-medium text-slate-700 rounded-button hover:bg-white/50 transition-colors"
+                      >
+                        {item.label}
+                      </Link>
+                    </motion.div>
+                  ))}
+                </div>
               </div>
             </motion.div>
           )}
