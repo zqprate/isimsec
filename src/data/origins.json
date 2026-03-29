@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "arabic",
+    "translations": {
+      "tr": { "name": "Arapça", "description": "Arap dilinden gelen isimler, genellikle Kur'an ve İslam kültüründen" },
+      "en": { "name": "Arabic", "description": "Names derived from the Arabic language, often rooted in Quranic and Islamic culture" },
+      "de": { "name": "Arabisch", "description": "Namen aus der arabischen Sprache, oft aus dem Koran und der islamischen Kultur" },
+      "ar": { "name": "عربي", "description": "أسماء مشتقة من اللغة العربية، غالباً من القرآن والثقافة الإسلامية" }
+    }
+  },
+  {
+    "slug": "turkish",
+    "translations": {
+      "tr": { "name": "Türkçe", "description": "Öz Türkçe kökenli isimler" },
+      "en": { "name": "Turkish", "description": "Names of pure Turkish origin" },
+      "de": { "name": "Türkisch", "description": "Namen türkischen Ursprungs" },
+      "ar": { "name": "تركي", "description": "أسماء من أصل تركي" }
+    }
+  },
+  {
+    "slug": "persian",
+    "translations": {
+      "tr": { "name": "Farsça", "description": "Fars dilinden gelen isimler" },
+      "en": { "name": "Persian", "description": "Names derived from the Persian language" },
+      "de": { "name": "Persisch", "description": "Namen aus der persischen Sprache" },
+      "ar": { "name": "فارسي", "description": "أسماء مشتقة من اللغة الفارسية" }
+    }
+  },
+  {
+    "slug": "hebrew",
+    "translations": {
+      "tr": { "name": "İbranice", "description": "İbrani dilinden gelen isimler, Tevrat ve Kutsal Kitap kökenli" },
+      "en": { "name": "Hebrew", "description": "Names derived from the Hebrew language, often Biblical" },
+      "de": { "name": "Hebräisch", "description": "Namen aus der hebräischen Sprache, oft biblischen Ursprungs" },
+      "ar": { "name": "عبري", "description": "أسماء مشتقة من اللغة العبرية" }
+    }
+  },
+  {
+    "slug": "latin",
+    "translations": {
+      "tr": { "name": "Latince", "description": "Latin dilinden gelen isimler, Roma İmparatorluğu kökenli" },
+      "en": { "name": "Latin", "description": "Names derived from the Latin language" },
+      "de": { "name": "Lateinisch", "description": "Namen aus der lateinischen Sprache" },
+      "ar": { "name": "لاتيني", "description": "أسماء مشتقة من اللغة اللاتينية" }
+    }
+  },
+  {
+    "slug": "greek",
+    "translations": {
+      "tr": { "name": "Yunanca", "description": "Antik ve modern Yunan dilinden gelen isimler" },
+      "en": { "name": "Greek", "description": "Names derived from Ancient and Modern Greek" },
+      "de": { "name": "Griechisch", "description": "Namen aus dem Griechischen" },
+      "ar": { "name": "يوناني", "description": "أسماء مشتقة من اللغة اليونانية" }
+    }
+  },
+  {
+    "slug": "germanic",
+    "translations": {
+      "tr": { "name": "Cermen", "description": "Cermen dillerinden gelen isimler" },
+      "en": { "name": "Germanic", "description": "Names derived from Germanic languages" },
+      "de": { "name": "Germanisch", "description": "Namen germanischen Ursprungs" },
+      "ar": { "name": "جرماني", "description": "أسماء من أصل جرماني" }
+    }
+  },
+  {
+    "slug": "english",
+    "translations": {
+      "tr": { "name": "İngilizce", "description": "İngiliz dilinden gelen isimler" },
+      "en": { "name": "English", "description": "Names of English origin" },
+      "de": { "name": "Englisch", "description": "Namen englischen Ursprungs" },
+      "ar": { "name": "إنجليزي", "description": "أسماء من أصل إنجليزي" }
+    }
+  },
+  {
+    "slug": "celtic",
+    "translations": {
+      "tr": { "name": "Kelt", "description": "Kelt dillerinden gelen isimler (İrlanda, İskoçya, Galler)" },
+      "en": { "name": "Celtic", "description": "Names derived from Celtic languages (Irish, Scottish, Welsh)" },
+      "de": { "name": "Keltisch", "description": "Namen keltischen Ursprungs" },
+      "ar": { "name": "كلتي", "description": "أسماء من أصل كلتي" }
+    }
+  },
+  {
+    "slug": "sanskrit",
+    "translations": {
+      "tr": { "name": "Sanskritçe", "description": "Sanskritçe kökenli isimler, Hint kültüründen" },
+      "en": { "name": "Sanskrit", "description": "Names derived from Sanskrit, rooted in Indian culture" },
+      "de": { "name": "Sanskrit", "description": "Namen aus dem Sanskrit, indischer Kultur" },
+      "ar": { "name": "سنسكريتي", "description": "أسماء مشتقة من اللغة السنسكريتية" }
+    }
+  },
+  {
+    "slug": "french",
+    "translations": {
+      "tr": { "name": "Fransızca", "description": "Fransız dilinden gelen isimler" },
+      "en": { "name": "French", "description": "Names of French origin" },
+      "de": { "name": "Französisch", "description": "Namen französischen Ursprungs" },
+      "ar": { "name": "فرنسي", "description": "أسماء من أصل فرنسي" }
+    }
+  },
+  {
+    "slug": "spanish",
+    "translations": {
+      "tr": { "name": "İspanyolca", "description": "İspanyol dilinden gelen isimler" },
+      "en": { "name": "Spanish", "description": "Names of Spanish origin" },
+      "de": { "name": "Spanisch", "description": "Namen spanischen Ursprungs" },
+      "ar": { "name": "إسباني", "description": "أسماء من أصل إسباني" }
+    }
+  },
+  {
+    "slug": "italian",
+    "translations": {
+      "tr": { "name": "İtalyanca", "description": "İtalyan dilinden gelen isimler" },
+      "en": { "name": "Italian", "description": "Names of Italian origin" },
+      "de": { "name": "Italienisch", "description": "Namen italienischen Ursprungs" },
+      "ar": { "name": "إيطالي", "description": "أسماء من أصل إيطالي" }
+    }
+  },
+  {
+    "slug": "slavic",
+    "translations": {
+      "tr": { "name": "Slav", "description": "Slav dillerinden gelen isimler" },
+      "en": { "name": "Slavic", "description": "Names derived from Slavic languages" },
+      "de": { "name": "Slawisch", "description": "Namen slawischen Ursprungs" },
+      "ar": { "name": "سلافي", "description": "أسماء من أصل سلافي" }
+    }
+  },
+  {
+    "slug": "scandinavian",
+    "translations": {
+      "tr": { "name": "İskandinav", "description": "İskandinav dillerinden gelen isimler" },
+      "en": { "name": "Scandinavian", "description": "Names from Scandinavian languages" },
+      "de": { "name": "Skandinavisch", "description": "Namen skandinavischen Ursprungs" },
+      "ar": { "name": "اسكندنافي", "description": "أسماء من أصل اسكندنافي" }
+    }
+  }
+]

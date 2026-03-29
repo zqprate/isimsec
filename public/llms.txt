@@ -1,0 +1,42 @@
+# İsimSeç — Çok Dilli Bebek İsmi Keşif Platformu
+> www.isimsec.com
+
+İsimSeç, 643+ isim veritabanı ve 4 dil desteğiyle (Türkçe, İngilizce, Almanca, Arapça) bebek ismi araştırması yapan ailelere hizmet veren interaktif bir platformdur.
+
+## Ana Sayfalar
+
+- [Ana Sayfa](https://www.isimsec.com/tr): İsim arama, filtre ve keşif
+- [Tüm İsimler](https://www.isimsec.com/tr/isimler): İsim veritabanı, filtreleme ve arama
+- [Erkek İsimleri](https://www.isimsec.com/tr/erkek-isimleri): Erkek bebek isimleri
+- [Kız İsimleri](https://www.isimsec.com/tr/kiz-isimleri): Kız bebek isimleri
+- [Popüler İsimler](https://www.isimsec.com/tr/populer-isimler): En çok tercih edilen isimler
+
+## İnteraktif Araçlar
+
+- [İsim Seçici](https://www.isimsec.com/tr/isim-secici): Cinsiyet, harf, hece, köken ve anlam kriterlerine göre isim bulma aracı
+- [Soyadı Uyum Analizi](https://www.isimsec.com/tr/soyad-uyumu): 7 kriterli fonetik uyum skoru (hece uyumu, ritim, sesli harf dengesi, fonetik akış, harf geçişi, tekrar analizi, uzunluk)
+- [İsim Karşılaştır](https://www.isimsec.com/tr/isim-karsilastir): İki ismi anlam, köken, popülerlik bazında yan yana karşılaştırma
+- [İsim Kombinator](https://www.isimsec.com/tr/isim-kombinator): İki isimden hece ve harf birleştirme yöntemleriyle yeni isim üretme
+- [Ebeveyn İsim Uyumu](https://www.isimsec.com/tr/ebeveyn-uyumu): Anne ve baba isimlerine göre uyumlu bebek ismi önerileri
+
+## Keşif Sayfaları
+
+- Harfe göre: /tr/harf/{harf} (A-Z)
+- Kökene göre: /tr/koken/{koken} (arapca, turkce, farsca, vb.)
+- Anlama göre: /tr/anlam/{anlam} (guclu, guzel, isik, vb.)
+
+## Veri Kaynakları
+
+İsim veritabanı TÜİK (Türkiye İstatistik Kurumu) nüfus istatistikleri, ABD Sosyal Güvenlik Kurumu (SSA) bebek isim verileri, BehindTheName etimolojik kaynakları ve akademik onomastik çalışmalardan derlenmektedir.
+
+## Dil Desteği
+
+- Türkçe: /tr/...
+- İngilizce: /en/...
+- Almanca: /de/...
+- Arapça: /ar/... (RTL destekli)
+
+## İletişim
+
+- Hakkımızda: https://www.isimsec.com/tr/hakkimizda
+- İletişim: https://www.isimsec.com/tr/iletisim

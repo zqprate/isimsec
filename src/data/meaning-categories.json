@@ -1,0 +1,18 @@
+[
+  { "slug": "strong", "translations": { "tr": "Güçlü", "en": "Strong", "de": "Stark", "ar": "قوي" } },
+  { "slug": "beautiful", "translations": { "tr": "Güzel", "en": "Beautiful", "de": "Schön", "ar": "جميل" } },
+  { "slug": "light", "translations": { "tr": "Işık", "en": "Light", "de": "Licht", "ar": "نور" } },
+  { "slug": "love", "translations": { "tr": "Sevgi", "en": "Love", "de": "Liebe", "ar": "حب" } },
+  { "slug": "nature", "translations": { "tr": "Doğa", "en": "Nature", "de": "Natur", "ar": "طبيعة" } },
+  { "slug": "brave", "translations": { "tr": "Cesur", "en": "Brave", "de": "Mutig", "ar": "شجاع" } },
+  { "slug": "wise", "translations": { "tr": "Bilge", "en": "Wise", "de": "Weise", "ar": "حكيم" } },
+  { "slug": "noble", "translations": { "tr": "Asil", "en": "Noble", "de": "Edel", "ar": "نبيل" } },
+  { "slug": "peaceful", "translations": { "tr": "Huzurlu", "en": "Peaceful", "de": "Friedlich", "ar": "سلام" } },
+  { "slug": "pure", "translations": { "tr": "Saf", "en": "Pure", "de": "Rein", "ar": "طاهر" } },
+  { "slug": "joyful", "translations": { "tr": "Neşeli", "en": "Joyful", "de": "Fröhlich", "ar": "فرح" } },
+  { "slug": "graceful", "translations": { "tr": "Zarif", "en": "Graceful", "de": "Anmutig", "ar": "رشيق" } },
+  { "slug": "divine", "translations": { "tr": "İlahi", "en": "Divine", "de": "Göttlich", "ar": "إلهي" } },
+  { "slug": "victorious", "translations": { "tr": "Muzaffer", "en": "Victorious", "de": "Siegreich", "ar": "منتصر" } },
+  { "slug": "faithful", "translations": { "tr": "Sadık", "en": "Faithful", "de": "Treu", "ar": "مخلص" } },
+  { "slug": "prosperity", "translations": { "tr": "Bereket", "en": "Prosperity", "de": "Wohlstand", "ar": "رخاء" } }
+]

@@ -1,0 +1,15 @@
+# İsimSeç — robots.txt
+# www.isimsec.com
+# Tüm botlara tam erişim — hızlı indexleme için kısıtsız
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap referansları — dil bazlı
+Sitemap: https://www.isimsec.com/sitemap.xml
+Sitemap: https://www.isimsec.com/sitemap-tr.xml
+Sitemap: https://www.isimsec.com/sitemap-en.xml
+Sitemap: https://www.isimsec.com/sitemap-de.xml
+Sitemap: https://www.isimsec.com/sitemap-ar.xml
+Sitemap: https://www.isimsec.com/sitemap-pages.xml
