@@ -118,6 +118,67 @@ export function itemListJsonLd(
 }
 
 /**
+ * Generate SoftwareApplication JSON-LD for tool pages.
+ * GSC'de "Software App" rich result olarak görünür.
+ */
+export function toolPageJsonLd({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name,
+    description,
+    url,
+    applicationCategory: "UtilitiesApplication",
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "TRY",
+    },
+    author: {
+      "@type": "Organization",
+      name: "İsimSeç",
+      url: "https://www.isimsec.com",
+    },
+  };
+}
+
+/**
+ * Generate CollectionPage JSON-LD for category/listing pages.
+ */
+export function collectionPageJsonLd({
+  name,
+  description,
+  url,
+  itemCount,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  itemCount: number;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: itemCount,
+    },
+  };
+}
+
+/**
  * Generate Organization JSON-LD for the site.
  */
 export function organizationJsonLd() {
