@@ -63,9 +63,11 @@ export function DatasetJsonLd() {
           "Babynamen",
           "أسماء أطفال",
         ],
+        license: "https://creativecommons.org/licenses/by-nc/4.0/",
         creator: {
           "@type": "Organization",
           name: "İsimSeç",
+          url: "https://www.isimsec.com",
         },
         temporalCoverage: "2020/..",
         spatialCoverage: {
