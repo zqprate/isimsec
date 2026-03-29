@@ -14,6 +14,7 @@ import {
 } from "@/components/seo/OrganizationJsonLd";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import { AdSenseScript } from "@/components/analytics/AdSenseScript";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import "../globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -88,6 +89,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="min-h-screen font-body text-slate-700 antialiased">
         <GoogleAnalytics />
         <AdSenseScript />
+        <ScrollProgress />
         <OrganizationJsonLd />
         <WebSiteJsonLd />
         <DatasetJsonLd />

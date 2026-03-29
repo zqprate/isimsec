@@ -164,7 +164,7 @@ export default function HomePage() {
               >
                 <div className="relative group">
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-ocean-200/40 via-gold-200/20 to-ocean-200/40 rounded-[18px] opacity-0 group-focus-within:opacity-100 transition-opacity duration-500 blur-sm" />
-                  <div className="relative input-glass flex items-center h-14 px-4">
+                  <div className="relative input-glass flex items-center h-14 px-4 gradient-border rounded-card">
                     <Search className="h-4.5 w-4.5 text-slate-400 flex-shrink-0" />
                     <input
                       type="text"
@@ -335,7 +335,7 @@ export default function HomePage() {
                   <motion.div
                     whileHover={{ y: -4, scale: 1.01 }}
                     transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                    className="clay-interactive p-5 h-full"
+                    className="clay-interactive p-5 h-full gradient-border card-tilt"
                   >
                     <div className="flex items-start gap-3">
                       <div className="flex-shrink-0 w-10 h-10 rounded-[10px] bg-ocean-50 flex items-center justify-center">
