@@ -84,16 +84,13 @@ export function LogoFull({
   className?: string;
 }) {
   return (
-    <div className={`inline-flex items-center gap-2.5 ${className}`}>
-      <Logo size={size} />
-      <div className="flex flex-col leading-none">
-        <span
-          className="text-lg font-display font-bold tracking-tight text-ocean-800"
-          style={{ lineHeight: 1.1 }}
-        >
-          İsim<span className="text-ocean-500">Seç</span>
-        </span>
-      </div>
+    <div className={`inline-flex items-center gap-2 ${className}`}>
+      <Logo size={size} animated={false} />
+      <span
+        className="text-xl font-display font-extrabold tracking-tight text-ocean-800 leading-none"
+      >
+        İsim<span className="text-ocean-500">Seç</span>
+      </span>
     </div>
   );
 }

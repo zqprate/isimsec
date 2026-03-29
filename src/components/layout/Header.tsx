@@ -66,8 +66,8 @@ export function Header({ locale }: { locale: Locale }) {
           scrolled ? "px-5" : "px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
         }`}>
           {/* Logo */}
-          <Link href={"/" as "/"} className="flex-shrink-0">
-            <LogoFull size={scrolled ? 28 : 32} />
+          <Link href={"/" as "/"} className="flex-shrink-0 flex items-center">
+            <LogoFull size={36} />
           </Link>
 
           {/* Desktop Nav */}
